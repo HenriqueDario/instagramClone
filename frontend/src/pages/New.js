@@ -44,7 +44,7 @@ class New extends Component{
                 <input 
                     type="text"
                     name="author"
-                    placeholder="Autor dos post"  
+                    placeholder="Autor do post"  
                     onChange={this.handleChange}  
                     value={this.state.author}
                 />
@@ -52,7 +52,7 @@ class New extends Component{
                 <input 
                     type="text"
                     name="place"
-                    placeholder="Local dos post"
+                    placeholder="Local do post"
                     onChange={this.handleChange}
                     value={this.state.place} 
                 />
@@ -60,7 +60,7 @@ class New extends Component{
                 <input 
                     type="text"
                     name="description"
-                    placeholder="Descrição dos post"
+                    placeholder="Descrição do post"
                     onChange={this.handleChange}    
                     value={this.state.description}  
                 />
@@ -68,7 +68,7 @@ class New extends Component{
                 <input 
                     type="text"
                     name="hashtags"
-                    placeholder="Hashtagas dos post"
+                    placeholder="Hashtags do post"
                     onChange={this.handleChange}  
                     value={this.state.hashtags}    
                 />
